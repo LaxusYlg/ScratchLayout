@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScratchLayout">
+        <attr name="revealPercent" format="integer" />
+        <attr name="autoReveal" format="boolean" />
+        <attr name="mask" format="reference" />
+        <attr name="maskMode">
+            <enum name="enlarge" value="0" />
+            <enum name="fit" value="1" />
+            <enum name="repeat" value="2" />
+        </attr>
+        <attr name="strokeWidth" format="dimension" />
+    </declare-styleable>
+</resources>
